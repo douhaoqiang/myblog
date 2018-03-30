@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Ubuntu系统下创建桌面菜单 | 斗的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="一、对于免安装软件 在桌面目录下创建{软件名}.desktop文件 使用命令 gedit {软件名}.desktop 打开文件写入一下内容   12345678910[Desktop Entry]Encoding=UTF-8Name=AndroidStudioComment=Android IDEExec=sh /usr/local/androidstudio/bin/studio.sh  #根据">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ubuntu系统下创建桌面菜单">
+<meta property="og:url" content="http://dhq_res.gitee.io/blog/2018/03/30/Ubuntu系统下创建桌面快捷方式/index.html">
+<meta property="og:site_name" content="斗的博客">
+<meta property="og:description" content="一、对于免安装软件 在桌面目录下创建{软件名}.desktop文件 使用命令 gedit {软件名}.desktop 打开文件写入一下内容   12345678910[Desktop Entry]Encoding=UTF-8Name=AndroidStudioComment=Android IDEExec=sh /usr/local/androidstudio/bin/studio.sh  #根据">
+<meta property="og:updated_time" content="2018-03-30T09:00:58.946Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ubuntu系统下创建桌面菜单">
+<meta name="twitter:description" content="一、对于免安装软件 在桌面目录下创建{软件名}.desktop文件 使用命令 gedit {软件名}.desktop 打开文件写入一下内容   12345678910[Desktop Entry]Encoding=UTF-8Name=AndroidStudioComment=Android IDEExec=sh /usr/local/androidstudio/bin/studio.sh  #根据">
+  
+    <link rel="alternate" href="/atom.xml" title="斗的博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    
+  
+  <link rel="stylesheet" href="/blog/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    
+    <div id="header-inner" class="inner">
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://dhq_res.gitee.io/blog"></form>
+      </div>
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/blog/">首页</a>
+        
+          <a class="main-nav-link" href="/blog/archives">归档</a>
+        
+          <a class="main-nav-link" href="/blog/about">关于</a>
+        
+      </nav>
+      
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/blog/" id="logo">斗的博客</a>
+      </h1>
+      
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Ubuntu系统下创建桌面快捷方式" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/blog/2018/03/30/Ubuntu系统下创建桌面快捷方式/" class="article-date">
+  <time datetime="2018-03-30T08:15:43.630Z" itemprop="datePublished">2018-03-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Ubuntu系统下创建桌面菜单
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <!-- Table of Contents -->
+        
+        <h2 id="一、对于免安装软件"><a href="#一、对于免安装软件" class="headerlink" title="一、对于免安装软件"></a>一、对于免安装软件</h2><ul>
+<li>在桌面目录下创建{软件名}.desktop文件</li>
+<li><p>使用命令 gedit {软件名}.desktop 打开文件写入一下内容</p>
+  <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">[Desktop Entry]</span><br><span class="line">Encoding=UTF-<span class="number">8</span></span><br><span class="line">Name=AndroidStudio</span><br><span class="line">Comment=Android IDE</span><br><span class="line">Exec=sh /usr/local/androidstudio/bin/studio.sh  #根据软件的具体执行路径</span><br><span class="line">Icon=/usr/local/androidstudio/bin/studio.png  #根据软件的图标</span><br><span class="line">Terminal=false  #软件打开时是否启动终端</span><br><span class="line">StartupNotify=<span class="keyword">false</span></span><br><span class="line">Type=Application</span><br><span class="line">Categories=Application;Development;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>在这个快捷方式上右键 进入设置 给快捷方式添加执行权限，以后就可以双击打开该软件了</p>
+</li>
+</ul>
+<h2 id="二、对于安装的软件"><a href="#二、对于安装的软件" class="headerlink" title="二、对于安装的软件"></a>二、对于安装的软件</h2><ul>
+<li>在/usr/share/applications 目录下找到想要创建快捷方式的软件对用的desktop文件</li>
+<li>使用复制命令将该文件复制到桌面目录下。<br>cp /usr/share/applications/{软件}.desktop  /home/user/Desktop/</li>
+<li>在这个快捷方式上右键 进入设置 给快捷方式添加执行权限，以后就可以双击打开该软件了</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://dhq_res.gitee.io/blog/2018/03/30/Ubuntu系统下创建桌面快捷方式/" data-id="cjfdpzine0001xwnzfwkgkmox" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+ <script src="/blog/jquery/jquery.min.js"></script>
+  <div id="random_posts">
+    <h2>Recommended Posts</h2>
+    <div class="random_posts_ul">
+      <script>
+          var random_count =4
+          var site = {BASE_URI:'/blog/'};
+          function load_random_posts(obj) {
+              var arr=site.posts;
+              if (!obj) return;
+              // var count = $(obj).attr('data-count') || 6;
+              for (var i, tmp, n = arr.length; n; i = Math.floor(Math.random() * n), tmp = arr[--n], arr[n] = arr[i], arr[i] = tmp);
+              arr = arr.slice(0, random_count);
+              var html = '<ul>';
+            
+              for(var j=0;j<arr.length;j++){
+                var item=arr[j];
+                html += '<li><strong>' + 
+                item.date + ':&nbsp;&nbsp;<a href="' + (site.BASE_URI+item.uri) + '">' + 
+                (item.title || item.uri) + '</a></strong>';
+                if(item.excerpt){
+                  html +='<div class="post-excerpt">'+item.excerpt+'</div>';
+                }
+                html +='</li>';
+                
+              }
+              $(obj).html(html + '</ul>');
+          }
+          $('.random_posts_ul').each(function () {
+              var c = this;
+              if (!site.posts || !site.posts.length){
+                  $.getJSON(site.BASE_URI + 'js/posts.js',function(json){site.posts = json;load_random_posts(c)});
+              } 
+               else{
+                load_random_posts(c);
+              }
+          });
+      </script>
+    </div>
+  </div>
+
+    
+<nav id="article-nav">
+  
+  
+    <a href="/blog/2018/03/29/Ubuntu系统Java环境配置/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Ubuntu下Java环境配置</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+ 
+     
+  <div class="comments" id="comments">
+    
+     
+       
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    
+       
+      
+      
+  </div>
+ 
+  
+
+</section>
+           
+    <aside id="sidebar">
+  
+    
+
+  
+    
+    <div class="widget-wrap">
+    
+      <div class="widget" id="toc-widget-fixed">
+      
+        <strong class="toc-title">Content</strong>
+        <div class="toc-widget-list">
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、对于免安装软件"><span class="toc-number">1.</span> <span class="toc-text">一、对于免安装软件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、对于安装的软件"><span class="toc-number">2.</span> <span class="toc-text">二、对于安装的软件</span></a></li></ol>
+          </div>
+      </div>
+    </div>
+
+  
+    
+
+  
+    
+  
+    
+  
+    
+
+  
+    
+  
+    <!--微信公众号二维码-->
+
+
+  
+</aside>
+
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-left">
+      &copy; 2014 - 2018 斗&nbsp;|&nbsp;
+      Theme by <a href="https://github.com/giscafer/hexo-theme-cafe/" target="_blank">Cafe</a>
+    </div>
+     <div id="footer-right">
+      Contact&nbsp;|&nbsp;1149496015@qq.com
+    </div>
+  </div>
+</footer>
+ <script src="/blog/jquery/jquery.min.js"></script>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/blog/" class="mobile-nav-link">首页</a>
+  
+    <a href="/blog/archives" class="mobile-nav-link">归档</a>
+  
+    <a href="/blog/about" class="mobile-nav-link">关于</a>
+  
+</nav>
+    <img class="back-to-top-btn" src="/images/fly-to-top.png"/>
+<script>
+// Elevator script included on the page, already.
+window.onload = function() {
+  var elevator = new Elevator({
+    selector:'.back-to-top-btn',
+    element: document.querySelector('.back-to-top-btn'),
+    duration: 1000 // milliseconds
+  });
+}
+</script>
+      
+
+  
+    <script>
+      var cloudTieConfig = {
+        url: document.location.href, 
+        sourceId: "",
+        productKey: "e2fb4051c49842688ce669e634bc983f",
+        target: "cloud-tie-wrapper"
+      };
+    </script>
+    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
+    
+
+  
+
+
+
+
+
+
+
+<!-- author:forvoid begin -->
+<!-- author:forvoid begin -->
+
+<!-- author:forvoid end -->
+
+<!-- author:forvoid end -->
+
+
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      })
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      })
+    </script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+ <script src="/blog/js/is.js"></script>
+
+
+  <link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css">
+  <script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js"></script>
+<script src="/blog/js/elevator.js"></script>
+  </div>
+</body>
+</html>
