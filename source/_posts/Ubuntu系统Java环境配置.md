@@ -1,5 +1,6 @@
 ---
 title: Ubuntu下Java环境配置
+tags: Ubuntu
 ---
 
 ## 一、Java 环境配置
