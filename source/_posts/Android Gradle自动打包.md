@@ -25,6 +25,7 @@ tags: Android
         }  
     }  
 ```
+<!--more-->
 ## 二、添加编译类型脚本(AS会自动生成默认的release配置)
 
 ```java
