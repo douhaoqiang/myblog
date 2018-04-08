@@ -47,7 +47,7 @@ getResources().getConfiguration().smallestScreenWidthDp
 |   设计尺寸     |    为UI给的效果图尺寸    |
 |   真实尺寸     |    为手机宽度尺寸（dp）    |
 
-[工具下载地址，以及源码](https://github.com/douhaoqiang/DimenLibs) 工具为目录下DimenLibs1.0.jar，下载双击打开运行就可以
+[工具下载地址，以及源码](https://github.com/douhaoqiang/DimenLibs) 工具为目录下DimenLibs_v1.1.0.jar，下载双击打开运行就可以
 
 
 
