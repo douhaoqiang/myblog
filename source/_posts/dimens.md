@@ -42,10 +42,12 @@ getResources().getConfiguration().smallestScreenWidthDp
 ## 四、自动生成适配文件的工具
 工具运行效果图如下
 ![](dimens/tools.png)
+
 | 名称 | 作用 |
-|--------|--------|
+| :------: | :------: |
 |   设计尺寸     |    为UI给的效果图尺寸    |
 |   真实尺寸     |    为手机宽度尺寸（dp）    |
+|   输出路径     |    适配文件的输出位置    |
 
 [工具下载地址，以及源码](https://github.com/douhaoqiang/DimenLibs) 工具为目录下DimenLibs_v1.1.0.jar，下载双击打开运行就可以
 
