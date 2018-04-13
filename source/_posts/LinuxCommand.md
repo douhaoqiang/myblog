@@ -19,7 +19,7 @@ tags: Linux
 - tar -cvf mytest.tar mytest/，对 mytest/ 目录进行归档处理（归档和压缩不一样）
 - tar -xvf mytest.tar，释放 mytest.tar 这个归档文件，释放到当前目录
 - tar -xvf mytest.tar -C /opt/setups/，释放 mytest.tar 这个归档文件，释放到 /opt/setups/ 目录下
-
+<!--more-->
 # 文件查询
 - ls，列出当前目录下的所有没有隐藏的文件 / 文件夹。
 - ls -a，列出包括以．号开头的隐藏文件 / 文件夹（也就是所有文件）
