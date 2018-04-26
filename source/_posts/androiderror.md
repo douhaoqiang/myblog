@@ -1,12 +1,17 @@
 ---
-title: java.lang.UnsatisfiedLinkError dlopen failed cannot locate symbol "strtof" referenced by "libsupp
+title: 错误集合
 date: 2018-04-26 11:00:43
 tags: [Android,Android Studio]
 ---
 
+# 一、运行报错
+
 ## 报错信息
 
 ```java
+
+java.lang.UnsatisfiedLinkError dlopen failed cannot locate symbol "strtof" referenced by "libsupp
+
 java.lang.UnsatisfiedLinkError: dlopen failed: "/data/app-lib/com.bjgoodwill.waiterphone-2/libsupportjni.so" has unexpected e_machine: 40
 java.lang.Runtime.loadLibrary(Runtime.java:364)
 java.lang.System.loadLibrary(System.java:526)
